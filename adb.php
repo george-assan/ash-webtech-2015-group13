@@ -1,13 +1,13 @@
 <?php
 
 /**
- * author: 
+ * author: George Assan
  * date:
  * description: A root class for all manage classes. This class communicates with DB
  */
 
 define("DB_HOST", 'localhost');
-define("DB_NAME", 'webtech');
+define("DB_NAME", 'task_manager');
 define("DB_PORT", 3306);
 define("DB_USER","root");
 define("DB_PWORD","");
@@ -92,6 +92,7 @@ class adb {
 	*/
     function fetch() {
         return mysql_fetch_assoc($this->result);
+		
     }
 
     /**
@@ -99,8 +100,10 @@ class adb {
 	*/
     function query($str_sql) {
 		
-        if (!$this->connect()) {		
+        if (!$this->connect()) {
+			echo "failed";
             return false;
+			
         }
         
         $this->result = mysql_query($str_sql,$this->link);
@@ -108,7 +111,6 @@ class adb {
             $this->log_error(LOG_LEVEL_DB_FAIL, 4, "query failed", mysql_error($this->link));
             return false;
         }
-
         return true;
     }
 	

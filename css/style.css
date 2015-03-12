@@ -1,10 +1,12 @@
+
 .clickspot{
 	text-decoration:underline;
 	color:blue;
 	cursor:pointer
 }
 .status{
-	background-color:Yellow
+	background-color:#42433c;
+	color:white;
 }
 .error{
 	color:Red;
@@ -12,23 +14,25 @@
 }
 
 .menuitem {
-	text-decoration:underline;
-	color:blue;
+	/**text-decoration:underline;**/
+	color:Green;
 	cursor:hand
 }
 .menuitem:hover{
-	text-decoration:underline;
+	/**text-decoration:underline;**/
 	cursor:hand;
 	font-weight:bold;
-	background-color:Silver
+	color: Green;
+	background-color:#64bc68
 }
 
 #pageheader
 {
     height: 1in;
-    background-color: Green;
+    background-color: #066d5d;
     font-size: large;
     text-align: center;
+	color: White;
 }
 
 #mainnav{
@@ -39,21 +43,26 @@
 
 #content {
 	width:10in;
-	vertical-align:top
+	vertical-align:top;
 	
 }
 
 .reportTable 
 {
     border:1px;
+	border-color:silver;
     border-collapse:collapse;
 }
-
+.reportTable tr.button td:hover{
+ background-color:Green;
+ color:White;
+}
 .reportTable .header
 {
-    background-color: #CC6600;
-    text-transform: uppercase;
+    background-color: #066d5d;
+	/**text-transform: uppercase;**/
     color: White;
+	height: 50px
 }
 
 .reportTable .row1
@@ -68,7 +77,7 @@
 
 .reportTable tr:hover
 {
-    background-color:Yellow
+    background-color:#01b297
 }
 
 .tableForm .label
@@ -110,4 +119,13 @@
     position: absolute;
     display:none;
     width: auto;
+}
+#divPageMenu
+{
+	padding-bottom:1%;
+	background-color:#d5d9d8;
+}
+#divContent
+{
+background-color:#e5f1ef;
 }
