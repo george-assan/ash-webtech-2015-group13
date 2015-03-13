@@ -22,8 +22,8 @@
 				</td>
 				<td id="content">
 					<div id="divPageMenu">
-						<span class="menuitem" ><a href='index.php' style="text-decoration:none;color:Green">View tasks</a></span>
-						<span class="menuitem" ><a href='addTask.php'style="text-decoration:none;color:Green">Add task</a></span>
+						<span style = 'padding:1%' class="menuitem1" ><a href='index.php' style="text-decoration:none;color:#42433c">View tasks</a></span>
+						<span style = 'padding:1%' class="menuitem1" ><a href='addTask.php'style="text-decoration:none;color:#42433c">Add task</a></span>
 						<span style='float:right' ><input  type="text" placeholder = "Search" id="txtSearch" />
 						<span><input type="submit" name="button" value="Go"></span>		
 						</span>		

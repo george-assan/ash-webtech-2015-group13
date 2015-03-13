@@ -15,8 +15,9 @@
 
 .menuitem {
 	/**text-decoration:underline;**/
-	color:Green;
-	cursor:hand
+	color:White;
+	cursor:hand;
+	background-color:#066d5d;
 }
 .menuitem:hover{
 	/**text-decoration:underline;**/
@@ -25,7 +26,13 @@
 	color: Green;
 	background-color:#64bc68
 }
-
+.menuitem1:hover{
+	/**text-decoration:underline;**/
+	cursor:hand;
+	font-weight:bold;
+	color: #066d5d;
+	background-color:#01b297
+}
 #pageheader
 {
     height: 1in;
@@ -122,8 +129,9 @@
 }
 #divPageMenu
 {
-	padding-bottom:1%;
+	
 	background-color:#d5d9d8;
+	height:27px;
 }
 #divContent
 {
