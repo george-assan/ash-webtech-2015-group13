@@ -27,7 +27,7 @@
 	<div class="outercontainer1">
 			<div id="header1">
 				
-                <span><img src="../assets/images/taskgenie.png" width="100%"></span>
+                <span><img src="../assets/images/taskgenie1.png" width="35%"></span>
                 
 			</div>
 		<form class="loginform" >

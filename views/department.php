@@ -223,7 +223,7 @@
             <div class="main">
 			<div class="sidecontainer">
 				<div id="header">
-					<span>Task Manager</span>
+					<span><img src="../assets/images/taskgenie1.png" alt="Task manger"width="55%"></span>
 				</div>
 				<div class="leftnavigation">
 				<div>
