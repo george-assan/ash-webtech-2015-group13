@@ -129,7 +129,7 @@
                    <button onClick="openNursesPage()" class="buttonsbuttons">Nurses</button>
                 </div>
                 <div>
-                    <button onClick="openDepartmentPage()" class="buttonsbuttons">Departments</button>
+                    <button onClick="openDepartmentPage()" class="buttonsbuttons" id="active">Departments</button>
                 </div>
 				
 			</div>

@@ -227,7 +227,7 @@ include 'nurses.php';
 				</div>
 				<div class="leftnavigation">
 				<div>
-                    <button onClick="showActiveTask()" class="buttonsbuttons">Tasks</button>
+                    <button onClick="showActiveTask()" class="buttonsbuttons" id="active">Tasks</button>
                 </div>
                 <div>
                    <button onClick="openNursesPage()" class="buttonsbuttons">Nurses</button>

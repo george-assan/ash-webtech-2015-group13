@@ -128,7 +128,7 @@
                     <button onClick="showActiveTask()" class="buttonsbuttons">Tasks</button>
                 </div>
                 <div>
-                   <button onClick="openNursesPage()" class="buttonsbuttons">Nurses</button>
+                   <button onClick="openNursesPage()" class="buttonsbuttons" id="active">Nurses</button>
                 </div>
                 <div>
                     <button onClick="openDepartmentPage()" class="buttonsbuttons">Departments</button>
