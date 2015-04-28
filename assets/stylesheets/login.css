@@ -1,0 +1,55 @@
+body{
+padding:0px;
+margin:0px;
+width:100%;
+height:100%;
+
+}
+#header1{
+	position:absolute;margin-top:60px;margin-left: auto; margin-right: auto; top:0px;bottom:90px;left:20px;right:0px;width:50%;height:30%;
+	top:0px;
+	position:absolute;
+	font-size:70px;
+	color:white;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";       /* IE 8 */
+filter: alpha(opacity=80);  /* IE 5-7 */
+-moz-opacity: 0.8;          /* Netscape */
+-khtml-opacity: 0.8;        /* Safari 1.x */
+opacity: 0.8;
+z-index:10;
+}
+.outercontainer1{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0px;
+	background: url("../images/loginBack.png");
+    background-size: cover;
+	z-index:8;
+}
+.loginform{
+	position:absolute;margin:auto;top:140px;bottom:0px;left:0px;right:0px;width:30%;height:30%;
+	z-index:10;
+}
+
+#loginbtn{
+	background:#515052;
+	text-align: center;
+	color:white;
+    margin: 0px;
+    border: 1px solid #a09fa0;
+	margin-top:30px;
+    cursor: pointer;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";       /* IE 8 */
+filter: alpha(opacity=50);  /* IE 5-7 */
+-moz-opacity: 0.5;          /* Netscape */
+-khtml-opacity: 0.5;        /* Safari 1.x */
+opacity: 0.5;
+	width:100px;
+	height:40px;
+	border-radius:5px;
+
+}
+#loginbtn:hover{
+	background:black;
+}

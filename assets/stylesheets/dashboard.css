@@ -1,0 +1,623 @@
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: "wf_segoe-ui_normal", "Segoe UI", "Segoe WP", Tahoma, Arial, sans-serif;
+	}
+
+.outercontainer{
+	
+	display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+	background:  background: -webkit-linear-gradient(#56595a, #84895d); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#56595a, #84895d); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#56595a, #84895d); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#56595a, #84895d); /* Standard syntax */
+}
+.nurseoutercontainer{
+	
+	display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+	background:  background: -webkit-linear-gradient(#56595a, #84895d); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#56595a, #84895d); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#56595a, #84895d); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#56595a, #84895d); /* Standard syntax */
+}
+
+.departmentoutercontainer{
+	
+	display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+	background:  background: -webkit-linear-gradient(#56595a, #84895d); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#56595a, #84895d); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#56595a, #84895d); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#56595a, #84895d); /* Standard syntax */
+}
+
+.main{
+	margin: auto;
+	position: absolute;
+	top:0px; bottom:0px; left:0px; right:0px;
+	width: 90%;
+    height: 90%;
+    background-color: #d1d4c3;
+    border: 0px;
+	border-left-color:#3d3c42;
+	border-radius: 10px;
+    display: block;
+	overflow: hidden;
+	box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+ -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+ -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+ -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+
+}
+.sidecontainer{
+	background-color: #d1d4c3;
+	border-right-color: #a7ac96;
+	
+    position: absolute;
+    top: 0px;
+    right: auto;
+    bottom: 0px;
+    left: 0px;
+    height: auto;
+    width: 250px;	
+}
+#header{
+	background-color: #3d3c42;
+	display: table;
+	color: white;
+	text-align: center;
+    position: absolute;
+    top: 0px;
+    right: auto;
+    bottom: 0px;
+    left: 0px;
+    height: 100px;
+    width: 250px;
+	font-family: "wf_segoe-ui_normal", "Segoe UI", "Segoe WP", Tahoma, Arial, sans-serif;
+}
+#header span{
+	display: table-cell;
+  vertical-align: middle; 
+}
+.contentarea{
+	background-color: #dbe5e3;
+    position: absolute;
+    top: 0px;
+    right: auto;
+    bottom: 0px;
+    left: 250px;
+    height: 100%;
+    width: 100%;  
+	 -webkit-box-shadow: -2px 2px 4px RGBA(150,152,154,.2);
+    box-shadow: -2px 2px 4px RGBA(150,152,154,.2);
+    z-index: 3;
+}
+.topbar{
+	background-color: #03ba7c;
+    position: absolute;
+    top: 0px;
+    right: auto;
+    bottom: 0px;
+    left: 0px;
+    height: 60px;
+    width: 100%;  
+	display: table;
+  
+}
+#search{
+	padding-left: 30px;
+	display: table-cell;
+  vertical-align: middle; 
+  width: 300px;
+}
+
+#searchbar{
+	background-color:#03af75;
+	color: white;
+	border:0px;
+	 box-shadow: inset 0px -1px 7px rgba(0,0,0,0.2);
+
+}
+#searchbar1{
+	background-color:#03af75;
+	color: white;
+	border:0px;
+	 box-shadow: inset 0px -1px 7px rgba(0,0,0,0.2);
+
+}
+#searchbar::-webkit-input-placeholder {
+   color: #02e497;
+}
+
+#searchbar:-moz-placeholder { /* Firefox 18- */
+   color: #02e497;  
+}
+
+#searchbar::-moz-placeholder {  /* Firefox 19+ */
+   color: #02e497;  
+}
+
+#searchbar:-ms-input-placeholder {  
+   color: #02e497;  
+}
+
+#searchbutton{
+	color: #2b8c62;
+		border:1px;
+		border-left:#02e497;
+		text-shadow: none;
+	  background: #02e497;
+	  box-shadow:  0 0 2px  rgba(0,0,0,0.3);
+ -moz-box-shadow: 0 0 2px  rgba(0,0,0,0.3);
+ -webkit-box-shadow: 0 0 2px  rgba(0,0,0,0.3);
+ -o-box-shadow: 0 0 2px  rgba(0,0,0,0.3);
+}
+.navBarMinor{
+	background-color: #33ab77;
+    position: absolute;
+    top: 60px;
+    right: auto;
+    bottom: 0px;
+    left: 0px;
+    height: 40px;
+    width: 100%;
+	display:table;
+	 box-shadow:  0 0 2px  rgba(0,0,0,0.2);
+ -moz-box-shadow: 0 0 2px  rgba(0,0,0,0.2);
+ -webkit-box-shadow: 0 0 2px  rgba(0,0,0,0.2);
+ -o-box-shadow: 0 0 2px  rgba(0,0,0,0.2);
+}
+#addtaskbtncontainer{
+	padding-left:30px;
+	display:table-cell;
+	vertical-align:middle;
+}
+#addtaskbtn{
+	background: none;
+	text-align: center;
+	color:white;
+    margin: 0px;
+    border: 0px;
+    cursor: pointer;
+}
+#addtaskbtn:hover{
+	color:#02e497;
+}
+#addtaskicon{
+	float:left;
+	margin-top:6px;
+}
+#addtasktxt{
+	float:right;
+	text-align: center;
+	margin-top:3px;
+	margin-left:5px;
+}
+#activetaskbtn{
+	background: none;
+	text-align: center;
+	color:white;
+    margin: 0px;
+    border: 0px;
+    cursor: pointer;
+}
+#activetaskbtn:hover{
+	color:#02e497;
+}
+#activetaskicon{
+	float:left;
+	margin-top:6px;
+}
+#activetaskicon{
+	float:left;
+	margin-top:6px;
+}
+#activetasktxt{
+	float:right;
+	text-align: center;
+	margin-top:3px;
+	margin-left:5px;
+}
+#endedtaskbtn{
+	background: none;
+	text-align: center;
+	color:white;
+    margin: 0px;
+    border: 0px;
+    cursor: pointer;
+}
+#endedtaskbtn:hover{
+	color:#02e497;
+}
+#endedtaskicon{
+	float:left;
+	margin-top:6px;
+}
+#endedtaskicon{
+	float:left;
+	margin-top:6px;
+}
+#endedtasktxt{
+	float:right;
+	text-align: center;
+	margin-top:3px;
+	margin-left:5px;
+}
+#multibtn{
+	position: absolute;
+	border:1px solid #33ab77;
+	top:10px;
+	left:265px;
+	background: none;
+	text-align: center;
+	color:#33ab77;
+    margin: 0px;
+    cursor: pointer;
+	border-radius: 4px;
+}
+#multibtntxt{
+	
+	float:right;
+	text-align: center;
+	margin-top:3px;
+	margin-left:5px;
+}
+#multibtn:hover{
+color:white;
+background: #33ab77;
+
+}
+#multibtn:visited .#multibtn:active{
+	color:white;
+background: #33ab77;
+}
+.addform{
+	padding:20px;
+	position:relative;
+	width:975px;
+	height:100%;
+	 top: 100px;
+	right:auto;
+	display:none;
+	overflow-y:hidden;
+	overflow-x:hidden;
+}
+
+
+.addform:hover{
+   /** overflow-y: scroll;**/
+}
+.addform::-webkit-scrollbar{
+    width: 12px;
+}
+.addform::-webkit-scrollbar-track {
+      background-color: #38f7a8;
+	  box-shadow: inset 0px 0px 6px rgba(0,0,0,0.2);
+	  border-radius:5px;
+} /* the new scrollbar will have a flat appearance with the set background color */
+ 
+.addform::-webkit-scrollbar-thumb {
+	  border-radius:5px;
+      background-color: rgba(0, 0, 0, 0.18); 
+} /* this will style the thumb, ignoring the track */
+ 
+.addform::-webkit-scrollbar-button {
+     /** background-color: #1ae893;
+	  color:black;**/
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+ 
+.addform::-webkit-scrollbar-corner {
+      background-color: black;
+}
+
+
+.addnurseform{
+	padding:20px;
+	position:relative;
+	width:975px;
+	height:100%;
+	 top: 100px;
+	right:auto;
+	display:none;
+	overflow-y:hidden;
+	overflow-x:hidden;
+}
+
+.addnurseform:hover{
+   /** overflow-y: scroll;**/
+}
+.addnurseform::-webkit-scrollbar{
+    width: 12px;
+}
+.addnurseform::-webkit-scrollbar-track {
+      background-color: #38f7a8;
+	  box-shadow: inset 0px 0px 6px rgba(0,0,0,0.2);
+	  border-radius:5px;
+} /* the new scrollbar will have a flat appearance with the set background color */
+ 
+.addnurseform::-webkit-scrollbar-thumb {
+	  border-radius:5px;
+      background-color: rgba(0, 0, 0, 0.18); 
+} /* this will style the thumb, ignoring the track */
+ 
+.addnurseform::-webkit-scrollbar-button {
+     /** background-color: #1ae893;
+	  color:black;**/
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+ 
+.addnurseform::-webkit-scrollbar-corner {
+      background-color: black;
+}
+
+.addDeptform{
+	padding:20px;
+	position:relative;
+	width:975px;
+	height:100%;
+	 top: 100px;
+	right:auto;
+	display:none;
+	overflow-y:hidden;
+	overflow-x:hidden;
+}
+
+.addDeptform:hover{
+   /** overflow-y: scroll;**/
+}
+.addDeptform::-webkit-scrollbar{
+    width: 12px;
+}
+.addDeptform::-webkit-scrollbar-track {
+      background-color: #38f7a8;
+	  box-shadow: inset 0px 0px 6px rgba(0,0,0,0.2);
+	  border-radius:5px;
+} /* the new scrollbar will have a flat appearance with the set background color */
+ 
+.addDeptform::-webkit-scrollbar-thumb {
+	  border-radius:5px;
+      background-color: rgba(0, 0, 0, 0.18); 
+} /* this will style the thumb, ignoring the track */
+ 
+.addDeptform::-webkit-scrollbar-button {
+     /** background-color: #1ae893;
+	  color:black;**/
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+ 
+.addDeptform::-webkit-scrollbar-corner {
+      background-color: black;
+}
+
+
+.leftnavigation{
+	top: 100px;
+	position: absolute;
+	width: 100%;
+}
+.buttonsbuttons{
+background-color:#d1d4c3;
+	text-align: center;
+	color:#6a6e71;
+    margin: 0px;
+    border: 0px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    padding-left: 50px;
+    font-size: 15px;
+	 height: 50px;
+	 
+}
+
+.buttonsbuttons:hover{
+    background-color: #dbe5e3;
+	color:#03ba7c;
+	border-left: 5px solid #03ba7c;
+    /**border-right: 10px solid black;**/
+}
+
+.buttonsbuttons:visited .buttonsbuttons:active{
+    background-color: sandybrown;
+    border-right: 10px solid red;
+}
+.contentspace{
+	position:relative;
+	width:100%;
+	height:100%;
+	 top: 100px;
+    bottom: 0px;
+	right:auto;
+}
+.multi-selectbar{
+	top:0px;
+	width:400px;
+	height:50px;
+
+}
+.taskdisplay{
+	position: absolute;
+	width:400px;
+	height:100%;
+	 top: 50px;
+    bottom: 0px;
+}
+.innertaskdisplay{
+	position: absolute;
+	width:400px;
+	height:450px;
+	 top: 0px;
+    bottom: 0px;
+	max-height: 450px;
+    overflow-y: hidden;
+	overflow-x: hidden;
+}
+.innertaskdisplay:hover{
+    overflow-y: scroll;
+}
+.innertaskdisplay::-webkit-scrollbar{
+    width: 12px;
+}
+.innertaskdisplay::-webkit-scrollbar-track {
+      background-color: #38f7a8;
+	  box-shadow: inset 0px 0px 6px rgba(0,0,0,0.2);
+	  border-radius:5px;
+} /* the new scrollbar will have a flat appearance with the set background color */
+ 
+.innertaskdisplay::-webkit-scrollbar-thumb {
+	  border-radius:5px;
+      background-color: rgba(0, 0, 0, 0.18); 
+} /* this will style the thumb, ignoring the track */
+ 
+.innertaskdisplay::-webkit-scrollbar-button {
+     /** background-color: #1ae893;
+	  color:black;**/
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+ 
+.innertaskdisplay::-webkit-scrollbar-corner {
+      background-color: black;
+} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+
+.taskdisplayextended{
+height:500px;
+padding:40px;
+background:#c7e9d8;
+	position: absolute;
+	left:400px;
+	width:580px;
+	 top: 0px;
+    bottom: 0px;
+	 -webkit-box-shadow: -2px 2px 4px RGBA(150,152,154,.2);
+    box-shadow: -2px 2px 4px RGBA(150,152,154,.2);
+    z-index: 3;
+}
+.taskpanels{
+	/**background: #d7eadf;**/
+    width: 400px;
+    height: 60px;
+    position: relative;
+    cursor: default;
+    outline: none;
+	border-bottom: 1px solid #c6d0ce;
+	display:table;
+	color:black;
+}
+.taskpanels:hover{
+	background-color:white;
+}
+
+.paneltaskname{
+	   /**background-color: seashell;**/
+    position: relative;
+    top: 5px;
+    left: 0;
+    padding-left:35px;
+    height: 23px;
+    color: #333;
+    font-family: "wf_segoe-ui_semilight", "Segoe UI Semilight", "Segoe WP Semilight", "Segoe UI", "Segoe WP", Tahoma, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+}
+.paneltasksup{
+		   /**background-color: seashell;**/
+    position: relative;
+    top: 10px;
+    left: 0;
+    padding-left:35px;
+    height: 23px;
+    color: #03ba7c;
+    font-size: 12px;
+}
+.tasktitledetails{
+	 position: relative;
+    top: 10px;
+    left: 0;
+    padding-left:40px;
+    height: 23px;
+    color: #333;
+    font-family: "wf_segoe-ui_semilight", "Segoe UI Semilight", "Segoe WP Semilight", "Segoe UI", "Segoe WP", Tahoma, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+	height:80px;
+	border-bottom: 1px solid #c6d0ce;
+}
+.taskdescriptiondetails{
+	 position: relative;
+    top: 10px;
+    left: 0;
+    padding-left:40px;
+    height: 23px;
+    color: #333;
+    font-family: "wf_segoe-ui_semilight", "Segoe UI Semilight", "Segoe WP Semilight", "Segoe UI", "Segoe WP", Tahoma, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+	height:200px;
+	border-bottom: 1px solid #c6d0ce;
+}
+.taskdatedetails{
+	position: relative;
+    top: 10px;
+    left: 0;
+    padding-left:40px;
+    height: 23px;
+    color: #333;
+    font-family: "wf_segoe-ui_semilight", "Segoe UI Semilight", "Segoe WP Semilight", "Segoe UI", "Segoe WP", Tahoma, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+	height:100px;
+	border-bottom: 1px solid #c6d0ce;
+}
+.innertaskdisplayextended{
+height:500px;
+padding:40px;
+background:#c7e9d8;
+	position: absolute;
+	left:0px;
+	width:580px;
+	 top: 0px;
+    bottom: 0px;
+	 
+}
+
+.innernursedisplayextended{
+height:500px;
+padding:40px;
+background:#c7e9d8;
+	position: absolute;
+	left:0px;
+	width:580px;
+	 top: 0px;
+    bottom: 0px;
+	 
+}
+
+.innerdeptdisplayextended{
+height:500px;
+padding:40px;
+background:#c7e9d8;
+	position: absolute;
+	left:0px;
+	width:580px;
+	 top: 0px;
+    bottom: 0px;
+	 
+}
